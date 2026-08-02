@@ -196,6 +196,17 @@ export default function Home() {
             <a href="https://maps.app.goo.gl/KY65XNfS6VzWKS7E9" target="_blank" rel="noreferrer" className="rounded-full border border-[#bdb3a8] bg-white/60 px-8 py-4 font-medium hover:bg-white">Cómo llegar</a>
           </div>
           <p className="mt-6 text-sm text-[#8f686d]">Te pedimos que confirmes tu asistencia antes del 26 de agosto de 2026.</p>
+          <div className="mt-8 flex justify-center">
+            <a
+              href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Baby%20Shower%20de%20Francesca&dates=20260912T130000/20260912T130000&ctz=America%2FArgentina%2FBuenos_Aires&location=SUM%20de%20Decs%20Tortugas%2C%20Los%20Lobos%20741%2C%20Gar%C3%ADn%2C%20Buenos%20Aires&details=Te%20esperamos%20para%20celebrar%20el%20Baby%20Shower%20de%20Francesca.%0A%0AInvitaci%C3%B3n%2C%20confirmaci%C3%B3n%20y%20regalos%3A%0Ahttps%3A%2F%2Fbabyshower-francesca.vercel.app%2F"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex w-full max-w-md items-center justify-center gap-3 rounded-full bg-[#75806b] px-10 py-4 text-lg font-medium text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-[#626d59]"
+            >
+              <span aria-hidden="true">📅</span>
+              Agregar a Calendar
+            </a>
+          </div>
         </div>
       </section>
 
